@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class Puntaje : MonoBehaviour
 {
-    public Text puntaje; //Variable de texto, la usaremos para mostrar el puntaje
+    [SerializeField] Text puntaje; //Variable de texto, la usaremos para mostrar el puntaje
 
     //Variables para realizar la recoleccion de oro
-    public GameObject OroM; //Objeto de las bolsas de oro
+    [SerializeField] GameObject OroM; //Objeto de las bolsas de oro
     int Oro = 0; //Cantidad de oro recolectado
-    public Text CantidadOro; //Variable de texto, la usaremos para mostrar la cantidad de oro
+    [SerializeField] Text CantidadOro; //Variable de texto, la usaremos para mostrar la cantidad de oro
 
     // Update is called once per frame
     void Update()

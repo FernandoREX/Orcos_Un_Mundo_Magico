@@ -4,41 +4,42 @@ using UnityEngine;
 
 public class Generador : MonoBehaviour
 {
-    // La prefab del objeto que quieres generar aleatoriamente
-    public GameObject[] Matriz;
+    [SerializeField] private GameObject[] matriz; // La prefab del objeto que quieres generar aleatoriamente
 
-    public float PosY = -2.25f;
-    public float PosZ = 0f;
+    [SerializeField] private float posY = -2.25f;
+    [SerializeField] private float posZ = 0f;
 
-    // El intervalo de tiempo entre generaciones de objetos (en segundos)
-    public float interval = 6;
+    [SerializeField] private float interval = 6; // El intervalo de tiempo entre generaciones de objetos (en segundos)
 
-    // La variable para almacenar el tiempo transcurrido desde la 鷏tima generaci髇 de objetos
-    float elapsedTime;
+    private float elapsedTime; // La variable para almacenar el tiempo transcurrido desde la 煤ltima generaci贸n de objetos
 
-    // Update is called once per frame
     void Update()
+    {
+        GenerarObjetoAleatorio();
+    }
+
+    // Funci贸n para generar un objeto aleatorio
+    private void GenerarObjetoAleatorio()
     {
         // Aumenta el tiempo transcurrido en cada frame
         elapsedTime += Time.deltaTime;
 
-        int longitudM = Matriz.Length;
+        int longitudMatriz = matriz.Length;
 
-        // Genera un n鷐ero aleatorio entre 0 y 1
-        int x = Random.Range(0, longitudM);
-
-        // Si ha pasado el tiempo suficiente desde la 鷏tima generaci髇 de objetos
+        // Si ha pasado el tiempo suficiente desde la 煤ltima generaci贸n de objetos
         if (elapsedTime >= interval)
         {
-            // Asigna la posici髇 en el eje Y al objeto vac韔
-            transform.position = new Vector3(transform.position.x, PosY, PosZ);
+            // Asigna la posici贸n en el eje Y al objeto vac铆o
+            transform.position = new Vector3(transform.position.x, posY, posZ);
 
-            // Crea una instancia del objeto a partir de la prefab en la posici髇 del objeto vac韔
-            Instantiate(Matriz[x], transform.position, Quaternion.identity);
+            // Genera un n煤mero aleatorio entre 0 y la longitud de la matriz
+            int indiceAleatorio = Random.Range(0, longitudMatriz);
+
+            // Crea una instancia del objeto a partir de la prefab en la posici贸n del objeto vac铆o
+            Instantiate(matriz[indiceAleatorio], transform.position, Quaternion.identity);
 
             // Resetea el tiempo transcurrido a cero
             elapsedTime = 0;
         }
     }
 }
-

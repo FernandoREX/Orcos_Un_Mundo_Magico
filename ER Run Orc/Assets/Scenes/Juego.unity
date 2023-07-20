@@ -143,7 +143,7 @@ GameObject:
   m_IsActive: 1
 --- !u!95 &311381880
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -160,7 +160,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!212 &311381881
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -478,12 +478,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ea97522e95dcc46a0b886705f8dd1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Matriz:
-  - {fileID: 3103445610900672319, guid: 9c2b9bb3103e79e479626ffc27b685ef, type: 3}
-  - {fileID: 1344647132498370764, guid: 81681ffceacfaa84287818452d34cfdb, type: 3}
+  matriz:
   - {fileID: 297075265981624672, guid: 6924a7c6e5db6fc4abfdb297702afb84, type: 3}
-  PosY: 0.8
-  PosZ: 0
+  - {fileID: 1344647132498370764, guid: 81681ffceacfaa84287818452d34cfdb, type: 3}
+  - {fileID: 3103445610900672319, guid: 9c2b9bb3103e79e479626ffc27b685ef, type: 3}
+  posY: -2.25
+  posZ: 0
   interval: 7
 --- !u!1 &739505828
 GameObject:
@@ -505,7 +505,7 @@ GameObject:
   m_IsActive: 1
 --- !u!95 &739505829
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -522,7 +522,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!212 &739505830
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -634,11 +634,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ea97522e95dcc46a0b886705f8dd1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Matriz:
+  matriz:
   - {fileID: 5033645589692483474, guid: 975b55d8613fd7a499cdf1cd20aba83f, type: 3}
   - {fileID: 7039708709306811491, guid: ae378bb9d3f33c547b99f540e6d94ead, type: 3}
-  PosY: -2.25
-  PosZ: -0.1
+  posY: -2.25
+  posZ: 0
   interval: 3
 --- !u!1 &784599345
 GameObject:
@@ -660,7 +660,7 @@ GameObject:
   m_IsActive: 1
 --- !u!95 &784599346
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -677,7 +677,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!212 &784599347
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -874,7 +874,7 @@ RectTransform:
   m_GameObject: {fileID: 909431159}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.0856, y: 3.0856, z: 3.0856}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 787663457}
@@ -882,7 +882,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 19, y: 124}
+  m_AnchoredPosition: {x: 175, y: 412}
   m_SizeDelta: {x: 217.5287, y: 44.4702}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &909431161
@@ -952,7 +952,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 917810333}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.4, y: 3.9, z: 1}
+  m_LocalPosition: {x: -2.09, y: 3.9, z: 1}
   m_LocalScale: {x: 0.10000001, y: 0.10000001, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1038,16 +1038,16 @@ RectTransform:
   m_GameObject: {fileID: 985098814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.0859, y: 3.0859, z: 3.0859}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 787663457}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -206, y: 124}
-  m_SizeDelta: {x: 217.5287, y: 44.4702}
+  m_AnchorMin: {x: 0.022875, y: 0.8027408}
+  m_AnchorMax: {x: 0.33264586, y: 0.94166666}
+  m_AnchoredPosition: {x: 43.5, y: 4}
+  m_SizeDelta: {x: -377.4713, y: -105.529785}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &985098816
 MonoBehaviour:
@@ -1135,10 +1135,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ea97522e95dcc46a0b886705f8dd1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Matriz:
+  matriz:
   - {fileID: 8088412642582222897, guid: ee90d6783cb2e8f458f179ac15e22908, type: 3}
-  PosY: -2.61
-  PosZ: -0.1
+  posY: -2.25
+  posZ: 0
   interval: 2
 --- !u!1 &1188561514
 GameObject:
@@ -1160,7 +1160,7 @@ GameObject:
   m_IsActive: 1
 --- !u!95 &1188561515
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1177,7 +1177,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!212 &1188561516
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1388,7 +1388,7 @@ BoxCollider2D:
   m_EdgeRadius: 0
 --- !u!95 &1435397852
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1405,7 +1405,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!81 &1435397853
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1783,7 +1783,7 @@ GameObject:
   m_IsActive: 1
 --- !u!95 &1981833443
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1800,7 +1800,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!212 &1981833444
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2022,7 +2022,7 @@ GameObject:
   m_IsActive: 1
 --- !u!95 &2007936883
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2039,7 +2039,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!212 &2007936884
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2132,7 +2132,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2042515408}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.99, y: -0.42666674, z: -10.986333}
+  m_LocalPosition: {x: 15.99, y: -2.69, z: -10.986333}
   m_LocalScale: {x: 0.6666667, y: 0.6666667, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2151,10 +2151,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ea97522e95dcc46a0b886705f8dd1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Matriz:
+  matriz:
   - {fileID: 8771314917433774192, guid: 64c2eaf8cdff34f4b922597460ef5aad, type: 3}
-  PosY: -2.73894
-  PosZ: 0
+  posY: -2.73894
+  posZ: 0
   interval: 2
 --- !u!1001 &8771314915843078148
 PrefabInstance:
