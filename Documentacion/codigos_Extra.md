@@ -76,3 +76,15 @@ En este caso, se utiliza para detectar cuando el jugador colisiona con un objeto
 5. Puedes ajustar la cantidad de oro recolectado según tus necesidades, por ejemplo, si deseas que el jugador recolecte más oro para ganar puntos adicionales.
 
 Con este script, podrás implementar un sistema de puntaje y recolección de objetos en tu juego y crear una experiencia más interactiva para los jugadores. ¡Diviértete experimentando con Unity y desarrollando tu juego!
+
+<!-- Cuando entregues tu documentación, por favor, borra todo lo que esté debajo. -->
+<div align="center">
+<br>
+<br>
+<br>
+<br>
+<p align="center">
+  <img src="../rexLogo.png" alt="Logo de Fernando Rosas" width="100"/>
+</p>
+<h3 align="center">Documentado por Fernando Rosas</h3>
+</div>
