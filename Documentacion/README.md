@@ -17,4 +17,14 @@ En este proyecto, hemos creado varios scripts en C# para controlar diferentes as
 Cada archivo de script está acompañado por una detallada documentación en formato Markdown, donde se explican sus funciones, variables y su uso en el juego. Te invitamos a explorar cada uno de ellos para obtener una comprensión completa de su funcionalidad.
 
 
-
+<!-- Cuando entregues tu documentación, por favor, borra todo lo que esté debajo. -->
+<div align="center">
+<br>
+<br>
+<br>
+<br>
+<p align="center">
+  <img src="../rexLogo.png" alt="Logo de Fernando Rosas" width="100"/>
+</p>
+<h3 align="center">Documentado por Fernando Rosas</h3>
+</div>
