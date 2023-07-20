@@ -83,3 +83,15 @@ Esta función especial de Unity se llama cuando se detecta una colisión en 2D. 
 5. Si utilizas el objeto prefab "casa" para algún propósito específico en el juego, ajusta el tiempo de destrucción en la función `DestruirCasa()` para que se adapte a tus necesidades.
 
 Es importante mencionar que este script es parte de la lógica del jugador en el juego y debe estar asociado a un personaje controlable para que funcione correctamente. También se puede combinar con otros scripts y sistemas para crear un juego más completo y diverso. ¡Diviértete experimentando con Unity y desarrollando tu juego!
+
+<!-- Cuando entregues tu documentación, por favor, borra todo lo que esté debajo. -->
+<div align="center">
+<br>
+<br>
+<br>
+<br>
+<p align="center">
+  <img src="../rexLogo.png" alt="Logo de Fernando Rosas" width="100"/>
+</p>
+<h3 align="center">Documentado por Fernando Rosas</h3>
+</div>
