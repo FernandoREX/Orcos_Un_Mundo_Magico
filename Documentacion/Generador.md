@@ -67,3 +67,16 @@ Esta función es responsable de generar un objeto aleatorio a partir de la matri
 5. Una vez que hayas configurado todo, el script generará automáticamente objetos aleatorios según la matriz de prefabs en el intervalo de tiempo especificado.
 
 Es importante destacar que este script puede ser utilizado para generar diferentes tipos de objetos, como plataformas, recolectables o elementos del escenario, dependiendo de cómo se configure la matriz de prefabs. Además, ten en cuenta que la generación de objetos se realizará en función del tiempo transcurrido, por lo que el script debe estar adjunto a un objeto que esté activo durante la ejecución del juego. Si el objeto es desactivado, la generación se detendrá hasta que el objeto se reactive nuevamente.
+
+
+<!-- Cuando entregues tu documentación, por favor, borra todo lo que esté debajo. -->
+<div align="center">
+<br>
+<br>
+<br>
+<br>
+<p align="center">
+  <img src="../rexLogo.png" alt="Logo de Fernando Rosas" width="100"/>
+</p>
+<h3 align="center">Documentado por Fernando Rosas</h3>
+</div>
